@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: java-microservice
-        image: akash6637/java-microservice:latest
+        image: akash6637/java-microservice
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
